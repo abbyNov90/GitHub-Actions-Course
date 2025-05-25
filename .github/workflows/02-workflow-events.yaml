@@ -1,7 +1,13 @@
 
 name: 02 - Workflow Events
 
+<<<<<<< HEAD
 on: workflow_dispatch
+=======
+on: 
+  pull_request:
+  workflow_dispatch:
+>>>>>>> 90373c4 (feat(03-workflow-runners): First comment)
 
 jobs:
   echo:
